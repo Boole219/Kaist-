@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> KAIST </title>
+    <link rel="stylesheet" href="./css/style.css">
+   
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css">
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/jquery.effects.core.js"></script>
+    <script src="./js/jquery.slicknav.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.2/dist/wow.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+        new WOW().init(); // wow객체 만들고 이를 초기화!! 하는 스크립트 코드임.
+        // new 키워드 >> 새로운 객체 만들때 사용
+        // WOW() : 새로 생성된 wow객체에 .init()이라는 메서드 호출
+        // .init() >> 객체 초기화시 사용 
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <!-- ==================== header ======================== -->
+        <header>
+            <div class="headerInner">
+                <!-- logo -->
+                <h1 class="logo">
+                    <a href="./index.html"><img src="./images/logo.png" alt="로고"></a>
+                </h1>
+                <!-- pc menu -->
+                <nav class="nav">
+                    <div class="inner">
+                    <ul id="menu" class="nav-list">
+                        <li class="in_menu01">
+                            <a href="#">KAIST</a>
+                            <ul>
+                                <li><a href="#">설립이념</a></li>
+                                <li><a href="#">학교현황</a></li>                           
+                                <li><a href="#">역사</a></li>
+                                <li><a href="#">UI/상징물</a></li>
+                                <li><a href="#">리더십</a></li>
+                                <li><a href="#">견학안내</a></li>
+                                <li><a href="#">캠퍼스안내</a></li>
+                                <li><a href="#">홍보물</a></li>
+                            </ul>
+                        </li>
+                        <li class="in_menu02">
+                            <a href="#">연구</a>
+                            <ul>
+                                <li><a href="#">과학기술혁신현장</a></li>
+                                <li><a href="#">연구조직</a></li>
+                                <li><a href="#">산학협력</a></li>
+                                <li><a href="#">창업과기업가정신</a></li>
+                                <li><a href="#">KAIST-NYU</a></li>
+                            </ul> 
+                        </li>
+                        <li class="in_menu03">
+                            <a href="#">KAIST생활</a>
+                            <ul>
+                                <li><a href="#">총동문회</a></li>
+                                <li><a href="#">배려</a></li>
+                                <li><a href="#">편의시설</a></li>
+                                <li><a href="#">축제&문화</a></li>
+                                <li><a href="#">학생자치기구및동아리</a></li>
+                            </ul>
+                        </li>
+                        <li class="in_menu04">
+                            <a href="#">교육</a>
+                            <ul>
+                                <li><a href="#">대학.학과소개</a></li>
+                                <li><a href="#">학사정보</a></li>
+                                <li><a href="#">교육지원/a></li>                                
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                </nav>
+                <div id="mobile_menu">
+                    <h1><a href="./index.html"><img src="./images/logo.png" alt="모바일 로고"></a></h1>
+                </div>
+                <!-- pc search,lang -->
+                <div class="searchLang">
+                    <div class="search">
+                        <a href="#">
+                            <i class="fa-regular fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+                    <ul>
+                        <li><a href="#">KOR</a></li>
+                        <li><a href="#"><i class="fa-duotone fa-caret-down"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right_menu">
+                    <ul>
+                        <li><a href="#"><img src="./images/top_icon01.png" alt="발전기금">발전기금</a></li>
+                        <li><a href="#"><img src="./images/top_icon02.png" alt="뉴스">뉴스</a></li>
+                        <li><a href="#"><img src="./images/top_icon03.png" alt="입학">입학</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- bg -->
+            <div class="bg"></div>
+        </header>
+
+        <!-- ==================== main ======================== -->
+        <main>
+            <section class="main_video">
+                <h2 class="blind">메인영상</h2>
+                <!-- main video -->
+                <video src="./images/main_video.mp4" class="video-play" autoplay muted loop></video>
+                <div class="video_title">
+                    <p class="sm_text">햇빛만으로 ​<br>목표물 표면의 성질을 제어하려는 연구가발</p>
+                    <p class="big_text">최근 다양한 코팅 기법을 이용해<br>많이 진행되고 있으며, <br>특히, 기능성 나노 재료 패터닝을 통한 방식이 큰 주목을 받고 있다.</p>
+                </div>
+                <!-- mobile bg -->
+                <div class="menu_intro">
+                    <div class="mBox1">
+                        <ul>
+                            <li class="company">
+                                <a href="#">
+                                    <img src="./images/main_intro_img1.png" alt="학교소개">
+                                    <p>학교소개</p>
+                                </a>
+                            </li>
+                            <li class="gf">
+                                <a href="#">
+                                    <img src="./images/main_intro_img2.png" alt="바른먹거리">
+                                    <p>학교식당</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mBox2">
+                        <ul>
+                            <li class="srm">
+                                <a href="#">
+                                    <img src="./images/main_intro_img3.png" alt="책임조직">
+                                    <p>책임조직</p>
+                                </a>
+                            </li>
+                            <li class="news">
+                                <a href="#">
+                                    <img src="./images/main_intro_img4.png" alt="뉴스룸">
+                                    <p>뉴스룸</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            <!-- 회사소개 -->
+            <section class="company_intro">
+                <div class="title">
+                    <h2>카이스트</h2>
+                    <p>′인구 위기를 과학기술로 극복′ 아이디어 찾습니다​​<br>
+                        우리 대학이 국가적 당면 과제인 인구 위기를 과학기술 아이디어로 해결하기 위한 대국민 아이디어 공모전을 개최한다. </p>
+                </div>
+                <div class="boxs wow animate__animated animate__fadeInUp">
+                    <!-- 1 -->
+                    <div class="option active" style="--optionBackground:url(../images/s01_list_img1.jpg)no-repeat;">
+                        <div class="img"></div>
+                        <p>가치체계</p>
+                        <span class="explain">카이스트의<br>미션을 소개합니다.</span>
+                        <div class="ci_bg"></div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="option" style="--optionBackground:url(../images/s01_list_img2.jpg)no-repeat;">
+                        <div class="img"></div>
+                        <p>히스토리</p>
+                        <span class="explain">과학을 <br>사랑해온 카이스트의 시간.</span>
+                        <div class="ci_bg"></div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="option" style="--optionBackground:url(../images/s01_list_img3.jpg)no-repeat;">
+                        <div class="img"></div>
+                        <p>개발</p>
+                        <span class="explain">34배의 큰 힘을 내는<br>지인공근육 소자 개발​</span>
+                        <div class="ci_bg"></div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="option" style="--optionBackground:url(../images/s01_list_img4.jpg)no-repeat;">
+                        <div class="img"></div>
+                        <p>카이스트연구실</p>
+                        <span class="explain">국가의 발전을 위해 기여한<br>카이스트 사업들.</span>
+                        <div class="ci_bg"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- 바른먹거리 -->
+            <section class="good_food">
+                <div class="title">
+                    <h2>먹거리</h2>
+                    <p>건강, 더 나아가 지구환경의 건강까지 두루 살핍니다.</p>
+                </div>
+                <div class="pc_gf wow animate__animated animate__fadeInUp">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./images/s02_list_img1.jpg" alt="바른먹거리">
+                                <p class="textMain">바른먹거리</p>
+                                <p class="textSub">건강과 행복을 위한<br>
+                                    먹거리는 무엇일까요?</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/s02_list_img2.jpg" alt="지속가능 식생활">
+                                <p class="textMain">지속가능연구</p>
+                                <p class="textSub">여러분도 지속가능 생활을<br>
+                                    시작해보세요</p>
+                            </a>
+                        </li>
+                        <li><a href="#">
+                                <img src="./images/s02_list_img3.jpg" alt="바른먹거리 캠페인">
+                                <p class="textMain">캠페인</p>
+                                <p class="textSub">어렸을 때 입맛이 평생 건강</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mobile_gf">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./images/s02_mBg1.svg" alt="바른먹거리">
+                                <p class="textMain">바른먹거리</p>
+                            </a>
+                        </li>
+                        <li><a href="#"><img src="./images/s02_mBg2.svg" alt="지속가능 식생활">
+                                <p class="textMain">지속가능 식생활</p>
+                            </a>
+                        </li>
+                        <li><a href="#"><img src="./images/s02_mBg3.svg" alt="바른먹거리 캠페인">
+                                <p class="textMain">바른먹거리 캠페인</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- 사회책임경영 -->
+            <section class="social_rm">
+                <div class="title">
+                    <h2>사회책임경영</h2>
+                    <p>‘이웃사랑’과 ‘생명존중’ 정신을 바탕으로<br>
+                        로하스 생활(LOHAS Living)을 구현해나갑니다.</p>
+                </div>
+                <div class="srm_box">
+                    <ul class="wow animate__animated animate__fadeInDown">
+                        <li><a href="#"><img src="./images/main_sec03_icon01.png" alt="LOHAS 전략">
+                                <p class="textMain">LOHAS 전략</p>
+                                <p class="textSub">LOHAS Strategy</p>
+                            </a>
+                        </li>
+                        <li><a href="#"><img src="./images/main_sec03_icon02.png" alt="가치창출 Process">
+                                <p class="textMain">가치창출 Process</p>
+                                <p class="textSub">Value Creation Process</p>
+                            </a>
+                        </li>
+                        <li><a href="#"><img src="./images/main_sec03_icon03.png" alt="수상내역">
+                                <p class="textMain">수상내역</p>
+                                <p class="textSub">Awards at a Glance</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- 뉴스룸 -->
+            <section class="newsRoom">
+                <div class="title">
+                    <h2>뉴스룸</h2>
+                    <p>카이스트의 다양한 소식과 생생한 뉴스를 매일 만나실수 있습니다.</p>
+                </div>
+                <div class="article wow animate__animated animate__fadeInUp">
+                    <ul>
+                        <!-- 1 -->
+                        <li>
+                            <a href="#"><img src="./images/article1_bg.jpg" alt="기사 배경1"></a>
+                            <div class="text">
+                                <strong>카이스트 올가홀푸드, 환경부 지정 녹색특화매장 11곳 신규 선정…국내 제로웨이스트 문화 선도</strong>
+                                <p>환경부 지정 제1호 ‘녹색특화매장’을 운영하며 국내 제로웨이스트 문화를 선도하고 있는 올가홀푸드가 서울 전 지역으로 녹색특화매장을 확대하며
+                                    지속가능한
+                                    친환경
+                                    소비 문화를 전파한다. 카이스트 계열의 LOHAS Fresh Market, 올가홀푸드(대표 강병규, 이하 올가)는 방배점, 압구정점, 강남점 등
+                                    11개
+                                    매장이
+                                    환경부 지정 ‘녹색특화매장’에 신규 선정되면서 서울 내 전 매장이 제로웨이스트(Zero-Waste) 매장으로 운영된다고 12일 밝혔다.
+                                     
+                                    ‘녹색특화매장’이란 환경부가 운영하는 ‘녹색매장’을 보다 확장·발전시킨 개념으로 친환경 녹색소비문화 확산을 위해 플라스틱 쓰레기 발생을 최소화한
+                                    ‘제로웨이스트(Zero Waste)’ 콘셉트의 매장을 뜻한다. 올가는 지난 2020년 방이점이 국내 최초로 환경부 지정 ‘녹색특화매장’으로
+                                    선정된 바
+                                    있으며,
+                                    이번에 11개 매장이 추가 선정됨에 따라 서울 내 전 매장을 ‘녹색특화매장’으로 운영한다.
+                                     
+                                    올가는 1981년 국내 최초 유기농 전문점으로 시작해 친환경 업계를 리딩하고 ESG 경영을 강화하고 있는 친환경 전문 유통사이다. 2020년
+                                    국내 최초
+                                    환경부로부터 제1호 ‘녹색특화매장’ 지정을 받았으며, 전 직영점이 환경부 녹색매장으로 지정되는 등 환경친화적 점포 운영에 적극적으로 나서고
+                                    있다. 최근
+                                    서울
+                                    내 전 매장이 생산, 유통, 소비 단계에서 불필요한 1회용품 및 플라스틱 포장재 사용을 최소화한 '제로마켓’으로 선정되며 국내 제로웨이스트 문화
+                                    확산에
+                                    앞장서고 있다.
+                                </p>
+                                <span>2024-01-12</span>
+                            </div>
+                        </li>
+                        <!-- 2 -->
+                        <li>
+                            <a href="#"><img src="./images/article2_bg.jpg" alt="기사 배경1"></a>
+                            <div class="text">
+                                <strong>카이스트, 2024 국제전자제품박람회에서 무인 즉석조리 플랫폼 ‘출출박스 로봇셰프’ 선보여</strong>
+                                <p>카이스트이 세계 최대 규모의 첨단 산업 전시회인 '국제전자제품박람회'에 참가해 미국 현지 소비자들에게 무인 즉석조리 플랫폼 ‘출출박스 로봇셰프’로
+                                    만든
+                                    메뉴를
+                                    선보인다. 카이스트(대표 이효율)은 미국 네바다주 라스베이거스에서 현지시간 9일부터 12일까지 열리는 ‘2024 국제전자제품박람회(Consumer
+                                    Electronics Show 2024, 이하 CES 2024)’에 참가해 로봇 조리 스마트 무인 자판기 ‘출출박스 로봇셰프(이하 로봇셰프)’로
+                                    만든
+                                    한식
+                                    메뉴를 선보인다고 10일 밝혔다.
+                                     
+                                    미국소비자기술협회가 주관하는 CES 2024는 1967년 첫 개최 이후 올해 57년째를 맞는 세계 최대 규모의 첨단 산업 전시회로, 이번 행사
+                                    기간
+                                    동안 총
+                                    3,500여 기업이 참가했으며 약 13만여 명의 관람객이 방문할 것으로 추산된다. 과거에는 IT와 가전 중심의 행사였으나, 최근 자동차와 유통
+                                    기술뿐만
+                                    아니라
+                                    푸드테크까지 폭넓은 산업의 첨단 기술을 선보이는 자리로 전 세계의 관심을 받고 있으며 참가하는 기업군도 다양해지고 있다. 올해의 주제는 'All
+                                    Together, All on'으로, 인공지능(AI)기술 발전이 다양한 산업에 가져올 변화를 화두로 개최됐다.
+                                     
+                                    카이스트의 이번 행사 참가는 미국 스마트 자판기 스타트업 ‘요카이 익스프레스(Yo-Kai Express)’와의 협업을 통해 진행됐다. 카이스트은
+                                    베네시안
+                                    엑스포
+                                    컨벤션 센터 2층 푸드테크 존에 마련된 요카이 익스프레스 홍보관에 ‘로봇셰프 기기를 전시하고 현장을 찾은 소비자 및 바이어들을 대상으로 한식
+                                    메뉴
+                                    3종(육개장국수, 떡국, 식물성불고기덮밥)을 선보였다.
+
+                                </p>
+                                <span>2024-01-10</span>
+                            </div>
+                        </li>
+                        <!-- 3 -->
+                        <li>
+                            <a href="#"><img src="./images/article3_bg.jpg" alt="기사 배경1"></a>
+                            <div class="text">
+                                <strong>카이스트푸드앤컬처, 신년 맞아 부산엑스더스카이에서 베스트셀러 ‘트렌드 코리아’ 컬래버레이션</strong>
+                                <p>카이스트의 푸드서비스 전문 기업 카이스트푸드앤컬처(대표 이동훈)는 부산 해운대구에서 운영 중인 국내 최대 규모 전망대 부산엑스더스카이에서 베스트셀러
+                                    ‘트렌드
+                                    코리아’ 시리즈를 출간하는 미래의창과 컬래버레이션 이벤트를 운영한다고 11일 밝혔다.
+                                     
+                                    트렌드 코리아 시리즈는 매년 대한민국의 경제, 사회, 문화 전반을 분석하여 다음 한 해의 소비 트렌드 키워드 10개를 선정하여 알려주는 책으로,
+                                    매년
+                                    출간될
+                                    때마다 종합 1위에 오르는 베스트셀러이다.
+                                     
+                                    이번 브랜드 컬래버레이션은 2024년 소비 트렌드 키워드를 부산에서 가장 높은 장소인 부산엑스더스카이에서 만날 수 있는 신년 이벤트로
+                                    기획되었다.
+                                    트렌드
+                                    코리아는 시리즈 출간 시 매년 12지신 동물 띠에서 착안해 한 해의 타이틀을 정하고 있으며, 2024년 청룡의 해에는 ‘DRAGON EYES’를
+                                    메인
+                                    타이틀로
+                                    2024년 소비 트렌드 키워드를 소개한 바 있다. 
+                                     
+                                    고객들은 부산엑스더스카이 100층에서 현재까지 출간된 트렌드 코리아 시리즈(2012-2024) 전시를 볼 수 있으며, 청룡의 해 기념 포토존에서
+                                    특별한
+                                    시간을
+                                    보낼 수 있다. 전시 및 포토존 공간은 ESG 경영과 지역업체와의 상생을 위해 친환경 기물 활용 행사 전문 기획사인 부산 소재의
+                                    ‘만만한녀석들’과
+                                    협업을 통해
+                                    마련되었다.
+
+                                </p>
+                                <span>2024-01-11</span>
+                            </div>
+                        </li>
+                        <!-- 4 -->
+                        <li>
+                            <a href="#"><img src="./images/article4_bg.jpg" alt="기사 배경1"></a>
+                            <div class="text">
+                                <strong>이효리, 카이스트 지속가능식품 전문 브랜드 ‘카이스트지구식단’ 캠페인 모델로 나선다</strong>
+                                <p>가수 이효리가 카이스트과 손잡고 지속가능식품 전문 브랜드인 ‘카이스트지구식단’ 캠페인 모델로 나선다. 카이스트(대표 이효율)은 12일 식물성 대체육을
+                                    포함한
+                                    지속가능식품 전문브랜드인 ‘카이스트지구식단’ 캠페인 전속모델로 가수 이효리를 선정하고 ‘나를 위해 지구를 위해 이효리는 카이스트지구식단 합니다’
+                                    캠페인
+                                    티저
+                                    영상과 이미지를 공개했다.
+                                     
+                                    ‘카이스트지구식단’은 캠페인 메인 슬로건으로 ‘이효리는 카이스트지구식단 합니다’를 내걸고 다양한 온오프라인 캠페인을 전개할 계획이다. 먼저 이날부터
+                                    연말까지 유동
+                                    인구가 많은 서울 강남역, 삼성역, 서울숲 등과 지하철, 시내버스에 옥외광고로 ‘카이스트지구식단’의 노출을 극대화하고, 온라인에는 브랜드 필름
+                                    영상을
+                                    공개하며
+                                    바이럴 마케팅을 펼칠 예정이다. 내년 1월부터는 본격적으로 ‘카이스트지구식단’ 브랜딩을 위한 CF 영상 및 개별 제품 광고를 순차 공개할
+                                    계획이다.
+                                     
+                                    창사 이래 유명 연예인을 CF 모델로 기용하지 않는 것으로 유명한 카이스트이 특정 광고모델을 선정한 것은 1984년 창립 이래 39년 만에 처음
+                                    있는
+                                    파격적인
+                                    일이다.
+                                    카이스트은 평소 바른먹거리 기업 이미지를 중요시하여 특정 CF 모델을 발탁하지 않았으나, 지난해 8월 ‘나를 위해 지구를 위해’라는 슬로건을
+                                    가지고
+                                    론칭한
+                                    ‘카이스트지구식단’이 지속가능한 라이프스타일을 추구하는 이효리와 가치관과 이미지 면에서 부합하여 시너지를 극대화할 수 있을 것으로 판단하여
+                                    협업하기로
+                                    했다.
+                                    이효리는 영상 메시지를 통해 “제가 카이스트의 첫 광고모델이 되었다고 들었다”며 “평소에도 카이스트을 정말 좋아하는데 첫 모델이라니 너무 기분이
+                                    좋다”고
+                                    전했다.
+
+                                </p>
+                                <span>2023-12-12</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- 하단화살표 - 클릭시 최상단 -->
+            <a href="#" class="btnTop"><img src="./images/topArrow_btn.svg" alt="최상단이동 화살표"></a>
+        </main>
+        <!-- ================================== footer ========================================== -->
+        <footer>
+            <div class="footerInner">
+                <div class="ft_logo">
+                    <a href="#"><img src="./images/logo.png" alt="하단로고"></a>
+                </div>
+                <div class="bmenu1">
+                    <ul>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이메일주소 무단수집 거부</a></li>
+                        <li><a href="#">사이버감사실</a></li>
+                        <li><a href="#">학교견학</a></li>
+                        <li><a href="#">채용정보</a></li>
+                    </ul>
+                    <!-- familySite -->
+                    <select id="familySites" onchange="Site()">
+                        <!-- option value - 서버로 전송되는 값 넣기 -->
+                        <option value="#">교내 사이트</option>
+                        <option value="#">IT서비스</option>
+                        <option value="#">IT아카데미</option>
+                        <option value="#">교수협의회</option>
+                        <option value="#">어학센터</option>
+                        <option value="#">인공위성연구소</option>
+                    </select>
+                </div>
+                <div class="bmenu2">
+                    <ul>
+                        <li><span>34141 대전광역시 유성구 대학로 291 한국과학기술원(KAIST)
+                           </span></li>
+                      
+                        <li><span>대표전화 : 042-350-2114</span></li>
+                    </ul>
+                    <!-- copyright -->
+                    <div class="copyright">
+                        <p> Copyright(C)2024, KAIST, All Rights Reserved.</p>
+                    </div>
+                </div>
+                <!-- sns -->
+                <div class="sns">
+                    <p>공식계정<i class="fa-duotone fa-caret-right"></i></p>
+                    <ul>
+                        <li><a href="#" target="_blank">
+                                <img src="./images/Facebook.svg" alt="페이스북"></a></li>
+                        <li><a href="#" target="_blank">
+                                <img src="./images/naver_blog.svg" alt="네이버블로그"></a></li>
+                        <li><a href="#/" target="_blank">
+                                <img src="./images/Instagram.svg" alt="인스타그램"></a></li>
+                        <li><a href="#" target="_blank">
+                                <img src="./images/youtube.svg" alt="유튜브"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
